@@ -1,0 +1,13 @@
+.mainHeading {
+    width: 91%;
+    height: 500px;
+    background: linear-gradient(to right, #678bad, #f6f8fa);
+    margin: 20px auto;
+    padding: 10px;
+    box-shadow: 3px 5px 3px #ccc;
+}
+
+.logo {
+    max-width: 300px;
+    /* max-height: 300px; */
+}

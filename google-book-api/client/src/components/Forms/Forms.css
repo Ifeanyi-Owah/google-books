@@ -1,0 +1,7 @@
+.formStyle {
+    position: relative;
+    top: 10px;
+    left: 30px;
+    max-width: 90%;
+    /* outline:1px solid red; */
+}
