@@ -3,6 +3,7 @@
 import React from 'react';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
+import Footer from './components/Footer/Footer';
 import Home from './pages/Home';
 import Saved from './pages/Saved';
 import NoMatch from './pages/Nomatch';
@@ -18,19 +19,11 @@ const App = () => (
        <Route exact path ="/saved" component={Saved} />
        <Route component={NoMatch} />
    </Switch>
+      {/* <Footer /> */}
     </div>
   </Router>
   
 );
 
-// class App extends Component {
-//   render() {
-//     return (
-//       <div className="App">
-//         <Home />
-//       </div>
-//     );
-//   }
-// }
 
 export default App;

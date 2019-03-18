@@ -3,11 +3,12 @@ import './Navbar.css';
 
 class Navbar extends Component {
   render() {
+    const hP = {padding: '15px',fontSize:'1.2em'};
     return (
-      <header>
-        <h2><a>Google Books</a></h2>
-        <nav>
-          <li><a href="/">Home</a></li>
+      <header style={hP} >
+        <h2><a href="/">Google Books</a></h2>
+        <nav >
+          <li><a href="/">Search</a></li>
           <li><a href="/saved">Saved</a></li>
         </nav>
       </header>
