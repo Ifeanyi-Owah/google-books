@@ -7,8 +7,8 @@ class Navbar extends Component {
       <header>
         <h2><a>Google Books</a></h2>
         <nav>
-          <li><a>Search</a></li>
-          <li><a>Saved</a></li>
+          <li><a href="/">Home</a></li>
+          <li><a href="/saved">Saved</a></li>
         </nav>
       </header>
     );
